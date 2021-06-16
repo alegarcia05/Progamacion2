@@ -29,7 +29,7 @@ int main(){
             scanf("%d,%d", &fila, &columna);
 
             while(tablero[fila-1][columna-1] != '-'){
-              printf("Esta casilla ya tiene dueño, intenta con otra\n");
+              printf("Casilla ocupada, por favor elija una casilla libre\n");
               scanf("%d,%d", &fila, &columna);
             }            
 
@@ -41,7 +41,7 @@ int main(){
             scanf("%d,%d", &fila, &columna);
             
              while(tablero[fila-1][columna-1] != '-'){
-              printf("Esta casilla ya tiene dueño, intenta con otra\n");
+              printf("Casilla ocupada, por favor elija una casilla libre\n");
               scanf("%d,%d", &fila, &columna);
             }      
 
